@@ -1,0 +1,397 @@
+body
+{ 
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.header
+{
+    font-family: sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://www.jomfruland.net/wp-content/uploads/2024/11/compressed_img-AdJX74tR0AFWtxeT79NgMCKX.png");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.nav1
+{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: #222f3e;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(
+        to left, 
+        rgb(34, 47, 62) 0%, 
+        rgb(223, 220, 238) 0%, 
+        rgb(34, 47, 62) 32%
+        );
+}
+.nav1 i
+{
+    margin: 0 5px;
+}
+.links a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    justify-content:space-evenly;
+    background: #e67e22;
+}
+.links a:hover
+{
+    background-color: orange;
+}
+.nav2
+{
+    width: 100%;
+    height: 100px;
+    background: rgba(245, 222, 179, 0.81);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px ; /*top-bottom & left-right padding*/
+    
+}
+.menu a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    justify-content: space-evenly;
+}
+.menu a:hover
+{
+    background-color: #e67e22;
+}
+.content
+{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;  
+    transform: translateY(-40px); 
+}
+.content h1
+{
+    font-family: "Carter One", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+button
+{
+    width: 220px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #e67e22;
+    background: rgba(245, 222, 179, 0.652);
+    color: black;
+    cursor: pointer;
+}
+.tab1 button:hover
+{
+    background-color: #e67e22;
+    transform: translateY(-20px)
+}
+.About
+{
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    background-color: #e67d2241;
+}
+.img
+{
+    border-radius: 30px;
+}
+.benefit
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.benefit div 
+{
+    position: relative;
+    text-align: center;
+    width: 200px; 
+}
+
+.benefit img 
+{
+    display: block;
+    width: 100%;
+    height: 20%;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.benefit div:hover img 
+{
+    transform: scale(1.1); 
+    filter: brightness(50%); 
+}
+
+.benefit h2, 
+.benefit p 
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+    color: white; 
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.benefit h2 
+{
+    top: 30%; 
+    font-size: 18px; 
+}
+
+.benefit p 
+{
+    top: 60%; 
+    font-size: 14px;
+}
+
+.benefit div:hover h2,
+.benefit div:hover p 
+{
+    opacity: 1;
+}
+
+.tab2 button:hover
+{
+    background-color: #e67e22;
+    transform: translateY(-20px)
+}
+.Process
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://lisboatv.pt/wp-content/uploads/2024/11/compressed_img-djs4EKXVUX5RXrmyM1YBZF48-1400x850.png);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.process h1
+{
+    text-align: left;
+    color: white;
+    padding: 80px;
+    margin:0%;
+    font-size: 40px;
+}
+.process p
+{
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin-top: 0;
+    font-size: 20px;
+
+}
+.img img
+{
+    border-radius: 20%;
+}
+
+.pi
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align:center;
+    color: white;
+   
+}
+.pi img
+{
+    border-radius: 20%;
+    transition: transform .5s;
+}
+.img1 h3
+{
+    text-align: center;
+}
+.img2 h3
+{
+    text-align: center;
+}
+.img3 h3
+{
+    text-align: center;
+}
+.img1 p
+{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.img2 p
+{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.img3 p
+{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.tab3
+{
+    text-align: center;
+}
+.tab3 button:hover
+{
+    background-color: #e67e22;
+    transform: translateY(-20px)
+}
+.pi .img1 :hover
+{
+    transform: translateY(-50px)
+}
+.pi .img2 :hover
+{
+    transform: translateY(-40px)
+}
+.pi .img3 :hover
+{
+    transform: translateY(-50px)
+}
+.testimonials
+{
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    background-color: #e67d2241;
+   font-size: 20px;
+}
+.form-container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.image-container 
+{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+}
+
+.image-container img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form 
+{
+    border-radius: 30px;
+    display: flex;
+    background: #f9f6f2;
+    padding: 30px;
+    border: 1px solid black;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact-form 
+{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contact-form label 
+{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea 
+{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.contact-form button 
+{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contact-info 
+{
+    padding-left: 20px;
+    border-left: 1px solid black;
+    flex: 1;
+}
+
+.contact-info h3 
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-info p 
+{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.social-icons 
+{
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a 
+{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.form button:hover 
+{
+    background-color: #e67e22;
+    transform: translateY(-20px);
+}
